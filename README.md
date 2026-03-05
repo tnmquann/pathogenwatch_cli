@@ -376,9 +376,9 @@ When decompressing `.gz` or `.tar.gz` files, the inner format wasn't recognized.
 | `--description` | string | No | Optional collection description |
 | `--genome_ids` | string | No | Comma-separated genome IDs (skips upload) |
 
-*: Required if not set in `config.py`
-**: Either `--input_dir` or `--genome_ids` required
-***: Required if `--collection_mode` is not `none`
+- *: Required if not set in `config.py`
+- **: Either `--input_dir` or `--genome_ids` required
+- ***: Required if `--collection_mode` is not `none`
 
 ---
 
@@ -394,6 +394,9 @@ Find NCBI taxonomy IDs at [NCBI Taxonomy Browser](https://www.ncbi.nlm.nih.gov/T
 | *Escherichia coli* | 562 |
 | *Mycobacterium tuberculosis* | 1773 |
 
+## References
+- PathogenWatch Documentation: https://next-docs.pathogen.watch/
+- PathogenWatch API Docs: https://next.pathogen.watch/docs/api
 ---
 
 ## Contributing
